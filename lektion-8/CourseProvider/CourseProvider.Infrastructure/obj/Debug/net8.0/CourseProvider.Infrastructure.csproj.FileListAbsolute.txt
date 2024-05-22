@@ -1,0 +1,12 @@
+C:\Projects\aspnet-2-prog23\lektion-8\CourseProvider\CourseProvider.Infrastructure\bin\Debug\net8.0\CourseProvider.Infrastructure.deps.json
+C:\Projects\aspnet-2-prog23\lektion-8\CourseProvider\CourseProvider.Infrastructure\bin\Debug\net8.0\CourseProvider.Infrastructure.dll
+C:\Projects\aspnet-2-prog23\lektion-8\CourseProvider\CourseProvider.Infrastructure\bin\Debug\net8.0\CourseProvider.Infrastructure.pdb
+C:\Projects\aspnet-2-prog23\lektion-8\CourseProvider\CourseProvider.Infrastructure\obj\Debug\net8.0\CourseProvider.Infrastructure.csproj.AssemblyReference.cache
+C:\Projects\aspnet-2-prog23\lektion-8\CourseProvider\CourseProvider.Infrastructure\obj\Debug\net8.0\CourseProvider.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\aspnet-2-prog23\lektion-8\CourseProvider\CourseProvider.Infrastructure\obj\Debug\net8.0\CourseProvider.Infrastructure.AssemblyInfoInputs.cache
+C:\Projects\aspnet-2-prog23\lektion-8\CourseProvider\CourseProvider.Infrastructure\obj\Debug\net8.0\CourseProvider.Infrastructure.AssemblyInfo.cs
+C:\Projects\aspnet-2-prog23\lektion-8\CourseProvider\CourseProvider.Infrastructure\obj\Debug\net8.0\CourseProvider.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projects\aspnet-2-prog23\lektion-8\CourseProvider\CourseProvider.Infrastructure\obj\Debug\net8.0\CourseProvider.Infrastructure.dll
+C:\Projects\aspnet-2-prog23\lektion-8\CourseProvider\CourseProvider.Infrastructure\obj\Debug\net8.0\refint\CourseProvider.Infrastructure.dll
+C:\Projects\aspnet-2-prog23\lektion-8\CourseProvider\CourseProvider.Infrastructure\obj\Debug\net8.0\CourseProvider.Infrastructure.pdb
+C:\Projects\aspnet-2-prog23\lektion-8\CourseProvider\CourseProvider.Infrastructure\obj\Debug\net8.0\ref\CourseProvider.Infrastructure.dll

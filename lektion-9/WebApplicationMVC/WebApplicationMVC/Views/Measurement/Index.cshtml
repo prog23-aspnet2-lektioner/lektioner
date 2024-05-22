@@ -1,0 +1,6 @@
+﻿@model IEnumerable<MeasurementModel>
+
+@foreach(var item in Model)
+{
+    <div>@item.Measurement (@item.Created)</div>
+}

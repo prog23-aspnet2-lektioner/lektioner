@@ -1,0 +1,18 @@
+﻿[
+  {
+    "outputFile": "wwwroot/css/site.css",
+    "inputFile": "wwwroot/css/site.scss"
+  },
+  {
+    "outputFile": "Views/Partials/_Header.cshtml.css",
+    "inputFile": "Views/Partials/_Header.cshtml.scss"
+  },
+  {
+    "outputFile": "Views/Auth/SignUp.cshtml.css",
+    "inputFile": "Views/Auth/SignUp.cshtml.scss"
+  },
+  {
+    "outputFile": "Views/Auth/SignIn.cshtml.css",
+    "inputFile": "Views/Auth/SignIn.cshtml.scss"
+  }
+]

@@ -1,0 +1,17 @@
+﻿@page "/auth"
+
+@using Microsoft.AspNetCore.Authorization
+@using System.Security.Claims
+
+@attribute [Authorize]
+@rendermode InteractiveAuto
+
+<PageTitle>Auth</PageTitle>
+
+<h1>You are authenticated</h1>
+
+<AuthorizeView>
+    @context.User.FindFirst(ClaimTypes.NameIdentifier)!.Value;
+
+    Hello @context.User.Identity?.Name!
+</AuthorizeView>

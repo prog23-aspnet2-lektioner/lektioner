@@ -1,0 +1,86 @@
+@import '../../wwwroot/css/scss/_mixins.scss';
+@import '../../wwwroot/css/scss/_typography.scss';
+
+.signup {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+
+    @include xl {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+
+        form {
+
+            h1 {
+                @include h2;
+
+                @include md {
+                    @include h1;
+                }
+            }
+
+
+            .form-content {
+                margin-top: 30px;
+                display: grid;
+                gap: 20px;
+                grid-template-columns: 1fr;
+                grid-template-areas: "firstname" "lastname" "email" "password" "confirm" "terms" "submit";
+
+                @include lg {
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-areas: "firstname lastname" "email email" "password confirm" "terms terms" "submit submit";
+                }
+            }
+
+            .input-group {
+                label {
+                    padding: 3px;
+                }
+            }
+
+            .checkbox-group {
+                margin-top: 10px;
+                margin-bottom: 30px;
+            }
+
+
+            #form-firstName {
+                grid-area: firstname;
+            }
+
+            #form-lastName {
+                grid-area: lastname;
+            }
+
+            #form-email {
+                grid-area: email;
+            }
+
+            #form-password {
+                grid-area: password;
+            }
+
+            #form-confirmpassword {
+                grid-area: confirm;
+            }
+
+            #form-checkbox {
+                grid-area: terms;
+            }
+
+            #form-button {
+                grid-area: submit;
+            }
+        }
+    }
+}

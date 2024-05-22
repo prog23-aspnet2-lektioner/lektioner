@@ -1,0 +1,16 @@
+a {
+    @include standard-text;
+    color: var(--color-theme);
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+
+.nav-link {
+    color: var(--color-dark);
+    font-weight: 700;
+}

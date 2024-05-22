@@ -1,0 +1,19 @@
+﻿@rendermode InteractiveServer
+
+<button class="btn @theme" @onclick="ChangeTheme">Change Theme</button>
+
+@code {
+    [CascadingParameter(Name = "Theme")]
+    private string? theme { get; set; }
+
+    [Parameter]
+    public EventCallback<string> OnThemeChange { get; set; }
+
+    private void ChangeTheme()
+    {
+        if (OnThemeChange.HasDelegate)
+        {
+            OnThemeChange.InvokeAsync("btn-danger");
+        }
+    }
+}

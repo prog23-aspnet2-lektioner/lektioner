@@ -1,0 +1,14 @@
+footer {
+    margin: 1.5rem;
+
+    .copyright {
+        text-align: center;
+        span {
+            display: none;
+
+            @include lg {
+                display: inline;
+            }
+        }
+    }
+}

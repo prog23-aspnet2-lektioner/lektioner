@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalAutenticationApp", "ExternalAutenticationApp\ExternalAutenticationApp\ExternalAutenticationApp.csproj", "{88024334-D862-432C-BA9A-957BBE78B092}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalAutenticationApp.Client", "ExternalAutenticationApp\ExternalAutenticationApp.Client\ExternalAutenticationApp.Client.csproj", "{2FD4A5E5-2A48-4543-9385-109D142A486C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88024334-D862-432C-BA9A-957BBE78B092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88024334-D862-432C-BA9A-957BBE78B092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88024334-D862-432C-BA9A-957BBE78B092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88024334-D862-432C-BA9A-957BBE78B092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD4A5E5-2A48-4543-9385-109D142A486C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD4A5E5-2A48-4543-9385-109D142A486C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD4A5E5-2A48-4543-9385-109D142A486C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD4A5E5-2A48-4543-9385-109D142A486C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C81766A-EF4B-4E3B-8379-E53AE8FA8010}
+	EndGlobalSection
+EndGlobal

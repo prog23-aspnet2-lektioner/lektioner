@@ -1,0 +1,169 @@
+﻿.display-1 {
+  line-height: 160%;
+  font-weight: 400;
+  color: var(--color-gray-700);
+  font-family: var(--font-standard);
+  font-weight: 800;
+  color: var(--color-gray-900);
+  font-size: 80px;
+}
+
+.display-2 {
+  line-height: 160%;
+  font-weight: 400;
+  color: var(--color-gray-700);
+  font-family: var(--font-standard);
+  font-weight: 800;
+  color: var(--color-gray-900);
+  font-size: 72px;
+}
+
+.display-3 {
+  line-height: 160%;
+  font-weight: 400;
+  color: var(--color-gray-700);
+  font-family: var(--font-standard);
+  font-weight: 800;
+  color: var(--color-gray-900);
+  font-size: 64px;
+}
+
+.display-4 {
+  line-height: 160%;
+  font-weight: 400;
+  color: var(--color-gray-700);
+  font-family: var(--font-standard);
+  font-weight: 800;
+  color: var(--color-gray-900);
+  font-size: 56px;
+}
+
+.display-5 {
+  line-height: 160%;
+  font-weight: 400;
+  color: var(--color-gray-700);
+  font-family: var(--font-standard);
+  font-weight: 800;
+  color: var(--color-gray-900);
+  font-size: 48px;
+}
+
+.display-6 {
+  line-height: 160%;
+  font-weight: 400;
+  color: var(--color-gray-700);
+  font-family: var(--font-standard);
+  font-weight: 800;
+  color: var(--color-gray-900);
+  font-size: 42px;
+}
+
+h1 {
+  line-height: 160%;
+  font-weight: 400;
+  color: var(--color-gray-700);
+  font-family: var(--font-standard);
+  font-weight: 800;
+  color: var(--color-gray-900);
+  font-size: 40px;
+}
+
+h2 {
+  line-height: 160%;
+  font-weight: 400;
+  color: var(--color-gray-700);
+  font-family: var(--font-standard);
+  font-weight: 800;
+  color: var(--color-gray-900);
+  font-size: 32px;
+}
+
+h3 {
+  line-height: 160%;
+  font-weight: 400;
+  color: var(--color-gray-700);
+  font-family: var(--font-standard);
+  font-weight: 800;
+  color: var(--color-gray-900);
+  font-size: 28px;
+}
+
+h4 {
+  line-height: 160%;
+  font-weight: 400;
+  color: var(--color-gray-700);
+  font-family: var(--font-standard);
+  font-weight: 800;
+  color: var(--color-gray-900);
+  font-size: 24px;
+}
+
+h5 {
+  line-height: 160%;
+  font-weight: 400;
+  color: var(--color-gray-700);
+  font-family: var(--font-standard);
+  font-weight: 800;
+  color: var(--color-gray-900);
+  font-size: 20px;
+}
+
+h6 {
+  line-height: 160%;
+  font-weight: 400;
+  color: var(--color-gray-700);
+  font-family: var(--font-standard);
+  font-weight: 800;
+  color: var(--color-gray-900);
+  font-size: 16px;
+}
+
+.signin {
+  margin-top: 30px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+@media (min-width: 1200px) {
+  .signin {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.signin .container {
+  margin-left: auto;
+  margin-right: auto;
+}
+.signin .container form input {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.signin .container form .form-content {
+  margin-top: 30px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+  grid-template-areas: "email" "password" "remember" "submit" "external";
+}
+.signin .container form .input-group label {
+  padding: 3px;
+}
+.signin .container form .checkbox-group {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.signin .container form #form-email {
+  grid-area: email;
+}
+.signin .container form #form-password {
+  grid-area: password;
+}
+.signin .container form #form-rememberMe {
+  grid-area: remember;
+}
+.signin .container form #btn-submit {
+  grid-area: submit;
+}

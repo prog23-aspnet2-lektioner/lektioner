@@ -1,0 +1,84 @@
+﻿@page "/signup"
+@using Microsoft.AspNetCore.Identity
+@using WebApp.Data
+@inject UserManager<ApplicationUser> UserManager
+@inject NavigationManager NavigationManager
+
+@rendermode InteractiveServer
+
+
+<PageTitle>Sign Up</PageTitle>
+
+@if (!string.IsNullOrEmpty(ErrorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @ErrorMessage
+    </div>
+}
+
+<EditForm FormName="SignUp" Model="model" OnValidSubmit="HandleValidSubmit" novalidate>
+    <DataAnnotationsValidator />
+
+    <div class="mb-3">
+        <InputText @bind-Value="model.FirstName" class="form-control" type="text" placeholder="Enter your first name" />
+        <ValidationMessage For="@(() => model.FirstName)" />
+    </div>
+    <div class="mb-3">
+        <InputText @bind-Value="model.LastName" class="form-control" type="text" placeholder="Enter your last name" />
+        <ValidationMessage For="@(() => model.LastName)" />
+    </div>
+    <div class="mb-3">
+        <InputText @bind-Value="model.Email" class="form-control" type="email" placeholder="Enter your email" />
+        <ValidationMessage For="@(() => model.Email)" />
+    </div>
+    <div class="mb-3">
+        <InputText @bind-Value="model.Password" class="form-control" type="password" placeholder="Enter your password" />
+        <ValidationMessage For="@(() => model.Email)" />
+    </div>
+    <div class="mb-3">
+        <InputText @bind-Value="model.ConfirmPassword" class="form-control" type="password" placeholder="Confirm your password" />
+        <ValidationMessage For="@(() => model.ConfirmPassword)" />
+    </div>
+    <button type="submit">Sign Up</button>
+</EditForm>
+
+
+@code {
+    private string? ErrorMessage { get; set; }
+
+    public SignUpModel model = new SignUpModel();
+
+    private async Task HandleValidSubmit()
+    {
+        var user = new ApplicationUser
+        {
+            Email = model.Email,
+            UserName = model.Email,
+        };
+
+        if (!string.IsNullOrEmpty(model.Password))
+        {
+            var result = await UserManager.CreateAsync(user, model.Password);
+            if (result.Succeeded)
+            {
+                NavigationManager.NavigateTo($"/signin?email={user.Email}");
+            }
+            else
+            {
+                ErrorMessage = "An error occurred while creating the user. Please try again.";
+            }
+        }
+
+        ErrorMessage = "An error occurred while creating the user. Please try again.";
+    }
+
+
+    public class SignUpModel
+    {
+        public string FirstName { get; set; } = null!;
+        public string LastName { get; set; } = null!;
+        public string Email { get; set; } = null!;
+        public string Password { get; set; } = null!;
+        public string ConfirmPassword { get; set; } = null!;
+    }
+}

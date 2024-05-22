@@ -1,0 +1,40 @@
+﻿@page "/products"
+@attribute [StreamRendering]
+
+@inject HttpClient Http
+
+
+<h1>Products</h1>
+
+
+@if (items != null)
+{
+    @foreach (var item in items)
+    {
+        <div style="margin-bottom: 1rem;">
+            <h5>@item.Title</h5>
+            <p>Price: @item.Price SEK</p>
+        </div>
+    }
+}
+else
+{
+    <div>No Products Found</div>
+}
+
+
+@code {
+    private IEnumerable<ProductModel> items = [];
+
+    private class ProductModel
+    {
+        public string Id { get; set; }
+        public string Title { get; set; }
+        public decimal Price { get; set; }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        items = await Http.GetFromJsonAsync<IEnumerable<ProductModel>>("http://localhost:7180/api/GetAll") ?? null!;
+    }
+}

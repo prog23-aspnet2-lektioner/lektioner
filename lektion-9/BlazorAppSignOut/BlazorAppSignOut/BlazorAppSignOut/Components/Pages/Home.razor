@@ -1,0 +1,15 @@
+﻿@page "/"
+@rendermode InteractiveWebAssembly
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+<button class="btn">Check</button>
+<div class="child">
+    <BlazorAppSignOut.Client.Pages.ChangeThemeButton OnThemeChange="OnThemeChange" />
+</div>
+
+@code {
+    [Parameter]
+    public EventCallback<string> OnThemeChange { get; set; }
+}

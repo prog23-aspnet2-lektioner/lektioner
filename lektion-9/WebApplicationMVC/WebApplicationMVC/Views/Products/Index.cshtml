@@ -1,0 +1,16 @@
+﻿@model IEnumerable<ProductModel>
+
+@if (Model != null)
+{
+    @foreach (var item in Model)
+    {
+        <div style="margin-bottom: 1rem;">
+            <h5>@item.Title</h5>
+            <p>Price: @item.Price SEK</p>
+        </div>
+    }
+}
+else
+{
+    <div>No Products Found</div>
+}

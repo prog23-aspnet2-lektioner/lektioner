@@ -1,0 +1,69 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Projects\\aspnet-2-prog23\\lektion-7\\BlazorApp3\\BlazorApp3\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Projects\\aspnet-2-prog23\\lektion-7\\BlazorApp3\\BlazorApp3\\obj\\Debug\\net8.0\\compressed\\yk9dbsis5n.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Projects\\aspnet-2-prog23\\lektion-7\\BlazorApp3\\BlazorApp3\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlazorApp3.styles.css",
+      "PackagePath": "staticwebassets\\BlazorApp3.styles.css"
+    },
+    {
+      "Id": "C:\\Projects\\aspnet-2-prog23\\lektion-7\\BlazorApp3\\BlazorApp3\\wwwroot\\appsettings.Development.json",
+      "PackagePath": "staticwebassets\\appsettings.Development.json"
+    },
+    {
+      "Id": "C:\\Projects\\aspnet-2-prog23\\lektion-7\\BlazorApp3\\BlazorApp3\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "C:\\Projects\\aspnet-2-prog23\\lektion-7\\BlazorApp3\\BlazorApp3\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Projects\\aspnet-2-prog23\\lektion-7\\BlazorApp3\\BlazorApp3\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Projects\\aspnet-2-prog23\\lektion-7\\BlazorApp3\\BlazorApp3\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Projects\\aspnet-2-prog23\\lektion-7\\BlazorApp3\\BlazorApp3\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Projects\\aspnet-2-prog23\\lektion-7\\BlazorApp3\\BlazorApp3\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Projects\\aspnet-2-prog23\\lektion-7\\BlazorApp3\\BlazorApp3\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Projects\\aspnet-2-prog23\\lektion-7\\BlazorApp3\\BlazorApp3\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorApp3.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlazorApp3.props",
+      "PackagePath": "build\\BlazorApp3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorApp3.props",
+      "PackagePath": "buildMultiTargeting\\BlazorApp3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlazorApp3.props",
+      "PackagePath": "buildTransitive\\BlazorApp3.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

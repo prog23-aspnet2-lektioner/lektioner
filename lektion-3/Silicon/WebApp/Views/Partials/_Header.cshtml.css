@@ -1,0 +1,62 @@
+﻿header {
+  padding: 1rem 0;
+}
+header .container {
+  display: grid;
+  align-items: center;
+  gap: 2rem;
+  grid-template-columns: 1fr auto;
+  grid-template-areas: "logo mobile";
+}
+@media (min-width: 768px) {
+  header .container {
+    grid-template-columns: 1fr auto auto;
+    grid-template-areas: "logo sw mobile";
+  }
+}
+@media (min-width: 1200px) {
+  header .container {
+    grid-template-columns: auto 1fr auto auto;
+    grid-template-areas: "logo nav sw account";
+  }
+}
+header .container .logo {
+  grid-area: logo;
+}
+header .container nav {
+  display: none;
+  grid-area: nav;
+  gap: 1rem;
+}
+@media (min-width: 1200px) {
+  header .container nav {
+    display: flex;
+  }
+}
+header .container .btn-switch {
+  display: none;
+  grid-area: sw;
+}
+@media (min-width: 768px) {
+  header .container .btn-switch {
+    display: block;
+  }
+}
+header .container .account-buttons {
+  display: none;
+  gap: 1rem;
+  grid-area: account;
+}
+@media (min-width: 1200px) {
+  header .container .account-buttons {
+    display: flex;
+  }
+}
+header .container .btn-mobileMenu {
+  grid-area: mobile;
+}
+@media (min-width: 1200px) {
+  header .container .btn-mobileMenu {
+    display: none;
+  }
+}

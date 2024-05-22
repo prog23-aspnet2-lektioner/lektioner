@@ -1,0 +1,15 @@
+﻿@model ProductFormModel
+
+<h3>Add New Product</h3>
+
+<form asp-controller="Products" asp-action="Create" method="post" novalidate>
+    <div style="margin-bottom: 1rem;">
+        <input asp-for="Title" />
+    </div>
+    <div style="margin-bottom: 1rem;">
+        <input asp-for="Price" />
+    </div>
+    <div>
+        <button type="submit">Create Product</button>
+    </div>
+</form>

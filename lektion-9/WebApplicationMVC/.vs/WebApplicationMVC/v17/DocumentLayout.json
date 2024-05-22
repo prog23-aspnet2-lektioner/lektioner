@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\aspnet-2-prog23\\lektion-9\\WebApplicationMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0BB961-EBBF-4716-8C0F-EF8611F91204}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\projects\\aspnet-2-prog23\\lektion-9\\webapplicationmvc\\webapplicationmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0BB961-EBBF-4716-8C0F-EF8611F91204}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0BB961-EBBF-4716-8C0F-EF8611F91204}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\projects\\aspnet-2-prog23\\lektion-9\\webapplicationmvc\\webapplicationmvc\\controllers\\measurementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0BB961-EBBF-4716-8C0F-EF8611F91204}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\controllers\\measurementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0BB961-EBBF-4716-8C0F-EF8611F91204}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\projects\\aspnet-2-prog23\\lektion-9\\webapplicationmvc\\webapplicationmvc\\services\\servicebusconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0BB961-EBBF-4716-8C0F-EF8611F91204}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\services\\servicebusconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0BB961-EBBF-4716-8C0F-EF8611F91204}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\projects\\aspnet-2-prog23\\lektion-9\\webapplicationmvc\\webapplicationmvc\\views\\measurement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A0BB961-EBBF-4716-8C0F-EF8611F91204}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\measurement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0BB961-EBBF-4716-8C0F-EF8611F91204}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\projects\\aspnet-2-prog23\\lektion-9\\webapplicationmvc\\webapplicationmvc\\models\\measurementmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0BB961-EBBF-4716-8C0F-EF8611F91204}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\models\\measurementmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A0BB961-EBBF-4716-8C0F-EF8611F91204}|WebApplicationMVC\\WebApplicationMVC.csproj|c:\\projects\\aspnet-2-prog23\\lektion-9\\webapplicationmvc\\webapplicationmvc\\services\\measurementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0BB961-EBBF-4716-8C0F-EF8611F91204}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\services\\measurementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MeasurementService.cs",
+              "DocumentMoniker": "C:\\Projects\\aspnet-2-prog23\\lektion-9\\WebApplicationMVC\\WebApplicationMVC\\Services\\MeasurementService.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Services\\MeasurementService.cs",
+              "ToolTip": "C:\\Projects\\aspnet-2-prog23\\lektion-9\\WebApplicationMVC\\WebApplicationMVC\\Services\\MeasurementService.cs",
+              "RelativeToolTip": "WebApplicationMVC\\Services\\MeasurementService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T11:12:45.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MeasurementModel.cs",
+              "DocumentMoniker": "C:\\Projects\\aspnet-2-prog23\\lektion-9\\WebApplicationMVC\\WebApplicationMVC\\Models\\MeasurementModel.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Models\\MeasurementModel.cs",
+              "ToolTip": "C:\\Projects\\aspnet-2-prog23\\lektion-9\\WebApplicationMVC\\WebApplicationMVC\\Models\\MeasurementModel.cs",
+              "RelativeToolTip": "WebApplicationMVC\\Models\\MeasurementModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T11:11:21.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceBusConsumerService.cs",
+              "DocumentMoniker": "C:\\Projects\\aspnet-2-prog23\\lektion-9\\WebApplicationMVC\\WebApplicationMVC\\Services\\ServiceBusConsumerService.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Services\\ServiceBusConsumerService.cs",
+              "ToolTip": "C:\\Projects\\aspnet-2-prog23\\lektion-9\\WebApplicationMVC\\WebApplicationMVC\\Services\\ServiceBusConsumerService.cs",
+              "RelativeToolTip": "WebApplicationMVC\\Services\\ServiceBusConsumerService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwBoAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T11:04:01.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\aspnet-2-prog23\\lektion-9\\WebApplicationMVC\\WebApplicationMVC\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Program.cs",
+              "ToolTip": "C:\\Projects\\aspnet-2-prog23\\lektion-9\\WebApplicationMVC\\WebApplicationMVC\\Program.cs",
+              "RelativeToolTip": "WebApplicationMVC\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T10:39:05.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Projects\\aspnet-2-prog23\\lektion-9\\WebApplicationMVC\\WebApplicationMVC\\Views\\Measurement\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Measurement\\Index.cshtml",
+              "ToolTip": "C:\\Projects\\aspnet-2-prog23\\lektion-9\\WebApplicationMVC\\WebApplicationMVC\\Views\\Measurement\\Index.cshtml",
+              "RelativeToolTip": "WebApplicationMVC\\Views\\Measurement\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-20T10:26:11.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MeasurementController.cs",
+              "DocumentMoniker": "C:\\Projects\\aspnet-2-prog23\\lektion-9\\WebApplicationMVC\\WebApplicationMVC\\Controllers\\MeasurementController.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Controllers\\MeasurementController.cs",
+              "ToolTip": "C:\\Projects\\aspnet-2-prog23\\lektion-9\\WebApplicationMVC\\WebApplicationMVC\\Controllers\\MeasurementController.cs",
+              "RelativeToolTip": "WebApplicationMVC\\Controllers\\MeasurementController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T09:27:55.826Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

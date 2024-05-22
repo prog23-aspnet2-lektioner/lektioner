@@ -1,0 +1,13 @@
+*,*::after,*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Manrope", sans-serif;
+    color: var(--color-gray-700);
+    background-color: var(--color-body-background);
+}

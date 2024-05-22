@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Projects\\aspnet-2-prog23\\lektion-9\\BlazorAppSignOut\\BlazorAppSignOut\\BlazorAppSignOut\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorAppSignOut.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlazorAppSignOut.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Projects\\aspnet-2-prog23\\lektion-9\\BlazorAppSignOut\\BlazorAppSignOut\\BlazorAppSignOut\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Projects\\aspnet-2-prog23\\lektion-9\\BlazorAppSignOut\\BlazorAppSignOut\\BlazorAppSignOut\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Projects\\aspnet-2-prog23\\lektion-9\\BlazorAppSignOut\\BlazorAppSignOut\\BlazorAppSignOut\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Projects\\aspnet-2-prog23\\lektion-9\\BlazorAppSignOut\\BlazorAppSignOut\\BlazorAppSignOut\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorAppSignOut.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlazorAppSignOut.props",
+      "PackagePath": "build\\BlazorAppSignOut.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorAppSignOut.props",
+      "PackagePath": "buildMultiTargeting\\BlazorAppSignOut.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlazorAppSignOut.props",
+      "PackagePath": "buildTransitive\\BlazorAppSignOut.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

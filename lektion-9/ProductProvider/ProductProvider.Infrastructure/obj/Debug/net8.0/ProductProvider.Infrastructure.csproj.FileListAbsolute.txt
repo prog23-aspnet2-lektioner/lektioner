@@ -1,0 +1,14 @@
+C:\Projects\aspnet-2-prog23\lektion-9\ProductProvider\ProductProvider.Infrastructure\bin\Debug\net8.0\ProductProvider.Infrastructure.deps.json
+C:\Projects\aspnet-2-prog23\lektion-9\ProductProvider\ProductProvider.Infrastructure\bin\Debug\net8.0\ProductProvider.Infrastructure.runtimeconfig.json
+C:\Projects\aspnet-2-prog23\lektion-9\ProductProvider\ProductProvider.Infrastructure\bin\Debug\net8.0\ProductProvider.Infrastructure.dll
+C:\Projects\aspnet-2-prog23\lektion-9\ProductProvider\ProductProvider.Infrastructure\bin\Debug\net8.0\ProductProvider.Infrastructure.pdb
+C:\Projects\aspnet-2-prog23\lektion-9\ProductProvider\ProductProvider.Infrastructure\obj\Debug\net8.0\ProductProvider.Infrastructure.csproj.AssemblyReference.cache
+C:\Projects\aspnet-2-prog23\lektion-9\ProductProvider\ProductProvider.Infrastructure\obj\Debug\net8.0\ProductProvider.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\aspnet-2-prog23\lektion-9\ProductProvider\ProductProvider.Infrastructure\obj\Debug\net8.0\ProductProvider.Infrastructure.AssemblyInfoInputs.cache
+C:\Projects\aspnet-2-prog23\lektion-9\ProductProvider\ProductProvider.Infrastructure\obj\Debug\net8.0\ProductProvider.Infrastructure.AssemblyInfo.cs
+C:\Projects\aspnet-2-prog23\lektion-9\ProductProvider\ProductProvider.Infrastructure\obj\Debug\net8.0\ProductProvider.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projects\aspnet-2-prog23\lektion-9\ProductProvider\ProductProvider.Infrastructure\obj\Debug\net8.0\ProductProvider.Infrastructure.dll
+C:\Projects\aspnet-2-prog23\lektion-9\ProductProvider\ProductProvider.Infrastructure\obj\Debug\net8.0\refint\ProductProvider.Infrastructure.dll
+C:\Projects\aspnet-2-prog23\lektion-9\ProductProvider\ProductProvider.Infrastructure\obj\Debug\net8.0\ProductProvider.Infrastructure.pdb
+C:\Projects\aspnet-2-prog23\lektion-9\ProductProvider\ProductProvider.Infrastructure\obj\Debug\net8.0\ProductProvider.Infrastructure.genruntimeconfig.cache
+C:\Projects\aspnet-2-prog23\lektion-9\ProductProvider\ProductProvider.Infrastructure\obj\Debug\net8.0\ref\ProductProvider.Infrastructure.dll

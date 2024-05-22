@@ -1,0 +1,56 @@
+﻿@page "/confirm/{email}"
+
+<div class="container">
+    <h1>Confirm Account</h1>
+
+    @if (!string.IsNullOrEmpty(ErrorMessage))
+    {
+        <div class="alert alert-danger">
+            @ErrorMessage
+        </div>
+    }
+
+
+    <EditForm Model="Form" OnSubmit="HandleSubmit" FormName="Confirm">
+        <DataAnnotationsValidator />
+        <InputText type="hidden" @bind-Value="Email" />
+
+        <p>Please verify with the code that was sent to your email address @Email.</p>
+
+        <div class="my-3">
+            <label class="form-label">Code</label>
+            <InputText @bind-Value="Form.Code" type="text" placeholder="Enter your code" class="form-control" />
+            <ValidationMessage For="@(() => Form.Code)" />
+        </div>
+
+        <button type="submit" class="btn btn-secondary">Confirm</button>
+    </EditForm>
+
+</div>
+@code {
+    [Parameter]
+    public string Email { get; set; } = null!;
+    private string ErrorMessage = "";
+
+    public ConfirmForm Form = new ConfirmForm();
+
+    private async Task HandleSubmit()
+    {
+        ErrorMessage = "";
+
+        if (!string.IsNullOrEmpty(Form.Email) && !string.IsNullOrEmpty(Form.Code))
+        {
+            var response = await Http.PostAsJsonAsync("https://accountprovider-siliconas.azurewebsites.net/api/Verify?code=_8paiWIBeOClsJ0P1VG6EQlgXQyh2Ok1-o28yNN1IGkSAzFuIuI8EQ==", Form);
+            if (response.IsSuccessStatusCode)
+            {
+                NavigationManager.NavigateTo("/signin");
+            }
+            else
+            {
+                ErrorMessage = "An error occurred while confirming your account. Please try again.";
+            }
+        };
+
+        ErrorMessage = "Please fill in the form correctly";
+    }
+}

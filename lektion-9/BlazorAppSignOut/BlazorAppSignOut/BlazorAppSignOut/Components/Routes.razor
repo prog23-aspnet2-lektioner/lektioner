@@ -1,0 +1,22 @@
+﻿<CascadingValue Value="theme" Name="Theme">
+<Router AppAssembly="typeof(Program).Assembly" AdditionalAssemblies="new[] { typeof(Client._Imports).Assembly }">
+    <Found Context="routeData">
+        <AuthorizeRouteView RouteData="routeData" DefaultLayout="typeof(Layout.MainLayout)">
+            <NotAuthorized>
+                <RedirectToLogin />
+            </NotAuthorized>
+        </AuthorizeRouteView>
+        <FocusOnNavigate RouteData="routeData" Selector="h1" />
+    </Found>
+</Router>
+</CascadingValue>
+
+
+@code {
+    private string theme = "btn-success";
+
+    private void ChangeTheme(string newTheme)
+    {
+        theme = newTheme;
+    }
+}

@@ -1,0 +1,74 @@
+﻿@page "/signup"
+@rendermode InteractiveServer
+
+<div class="container">
+    <h1>Sign Up</h1>
+
+    @if (!string.IsNullOrEmpty(ErrorMessage))
+    {
+        <div class="alert alert-danger">
+            @ErrorMessage
+        </div>
+    }
+
+    <EditForm Model="Form" FormName="SignUp" OnSubmit="HandleSubmit" novalidate>
+        <DataAnnotationsValidator />
+
+        <div class="form-group mb-3">
+            <label class="form-label">First name</label>
+            <InputText @bind-Value="Form.FirstName" placeholder="Enter your first name" class="form-control" />
+            <ValidationMessage For="@(() => Form.FirstName)" />
+        </div>
+
+        <div class="form-group mb-3">
+            <label class="form-label">Last name</label>
+            <InputText @bind-Value="Form.LastName" placeholder="Enter your last name" class="form-control" />
+            <ValidationMessage For="@(() => Form.LastName)" />
+        </div>
+
+        <div class="form-group mb-3">
+            <label class="form-label">Email</label>
+            <InputText @bind-Value="Form.Email" placeholder="Enter your email" type="email" class="form-control" />
+            <ValidationMessage For="@(() => Form.Email)" />
+        </div>
+
+        <div class="form-group mb-3">
+            <label class="form-label">Password</label>
+            <InputText @bind-Value="Form.Password" placeholder="Enter your password" type="password" class="form-control" />
+            <ValidationMessage For="@(() => Form.Password)" />
+        </div>
+
+        <button type="submit" class="btn btn-secondary">Sign Up</button>
+    </EditForm>
+
+</div>
+
+
+
+
+
+@code {
+    private SignUpForm Form = new SignUpForm();
+    private string ErrorMessage = "";
+
+
+    private async Task HandleSubmit()
+    {
+        ErrorMessage = "";
+
+        if (!string.IsNullOrEmpty(Form.Email) && !string.IsNullOrEmpty(Form.Password))
+        {
+            var response = await Http.PostAsJsonAsync("https://accountprovider-siliconas.azurewebsites.net/api/SignUp?code=M534ArFv69BDSrB1WBKCbyE045-o-2cMR9fwlJbGEZtFAzFuNuP7gQ==", Form);
+            if (response.IsSuccessStatusCode)
+            {
+                NavigationManager.NavigateTo($"/confirm/{Form.Email}");
+            }
+            else
+            {
+                ErrorMessage = "An error occurred while signing up. Please try again.";
+            }
+        };
+
+        ErrorMessage = "Please fill in the form correctly";
+    }
+}

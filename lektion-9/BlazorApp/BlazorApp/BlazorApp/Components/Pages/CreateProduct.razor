@@ -1,0 +1,40 @@
+﻿@page "/products/create"
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@rendermode InteractiveServer
+
+<h3>Add New Product</h3>
+
+<EditForm FormName="NewProductForm" Model="ProductForm" OnSubmit="OnSubmit" method="post" novalidate>
+    <div style="margin-bottom: 1rem;">
+        <InputText @bind-Value="ProductForm.Title" />
+    </div>
+    <div style="margin-bottom: 1rem;">
+        <InputNumber @bind-Value="ProductForm.Price" />
+    </div>
+    <div>
+        <button type="submit">Create Product</button>
+    </div>
+</EditForm>
+
+
+
+@code {
+    private ProductFormModel ProductForm = new();
+
+    private class ProductFormModel
+    {
+        public string Title { get; set; } = null!;
+        public decimal Price { get; set; } 
+    }
+
+    private async Task OnSubmit()
+    {
+        var response = await Http.PostAsJsonAsync("http://localhost:7180/api/Create", ProductForm);
+        if (response.IsSuccessStatusCode)
+        {
+            NavigationManager.NavigateTo("/");
+        }
+    }
+
+}

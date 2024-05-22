@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Projects\\aspnet-2-prog23\\lektion-10\\ExternalAutenticationApp\\ExternalAutenticationApp\\ExternalAutenticationApp.Client\\bin\\Release\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Projects\\aspnet-2-prog23\\lektion-10\\ExternalAutenticationApp\\ExternalAutenticationApp\\ExternalAutenticationApp.Client\\obj\\Release\\net8.0\\compressed\\wck5qvslel.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Projects\\aspnet-2-prog23\\lektion-10\\ExternalAutenticationApp\\ExternalAutenticationApp\\ExternalAutenticationApp.Client\\wwwroot\\appsettings.Development.json",
+      "PackagePath": "staticwebassets\\appsettings.Development.json"
+    },
+    {
+      "Id": "C:\\Projects\\aspnet-2-prog23\\lektion-10\\ExternalAutenticationApp\\ExternalAutenticationApp\\ExternalAutenticationApp.Client\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.ExternalAutenticationApp.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.ExternalAutenticationApp.Client.props",
+      "PackagePath": "build\\ExternalAutenticationApp.Client.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ExternalAutenticationApp.Client.props",
+      "PackagePath": "buildMultiTargeting\\ExternalAutenticationApp.Client.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.ExternalAutenticationApp.Client.props",
+      "PackagePath": "buildTransitive\\ExternalAutenticationApp.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

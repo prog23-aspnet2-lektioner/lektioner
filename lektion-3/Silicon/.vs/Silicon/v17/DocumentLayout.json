@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\aspnet-2-prog23\\lektion-3\\Silicon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDFD844-E844-4F48-B08F-8795690EDDDB}|WebApp\\WebApp.csproj|c:\\projects\\aspnet-2-prog23\\lektion-3\\silicon\\webapp\\views\\partials\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BDFD844-E844-4F48-B08F-8795690EDDDB}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\partials\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDFD844-E844-4F48-B08F-8795690EDDDB}|WebApp\\WebApp.csproj|c:\\projects\\aspnet-2-prog23\\lektion-3\\silicon\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BDFD844-E844-4F48-B08F-8795690EDDDB}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDFD844-E844-4F48-B08F-8795690EDDDB}|WebApp\\WebApp.csproj|c:\\projects\\aspnet-2-prog23\\lektion-3\\silicon\\webapp\\views\\auth\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BDFD844-E844-4F48-B08F-8795690EDDDB}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\auth\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDFD844-E844-4F48-B08F-8795690EDDDB}|WebApp\\WebApp.csproj|c:\\projects\\aspnet-2-prog23\\lektion-3\\silicon\\webapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BDFD844-E844-4F48-B08F-8795690EDDDB}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BDFD844-E844-4F48-B08F-8795690EDDDB}|WebApp\\WebApp.csproj|c:\\projects\\aspnet-2-prog23\\lektion-3\\silicon\\webapp\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BDFD844-E844-4F48-B08F-8795690EDDDB}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Header.cshtml",
+              "DocumentMoniker": "C:\\Projects\\aspnet-2-prog23\\lektion-3\\Silicon\\WebApp\\Views\\Partials\\_Header.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Partials\\_Header.cshtml",
+              "ToolTip": "C:\\Projects\\aspnet-2-prog23\\lektion-3\\Silicon\\WebApp\\Views\\Partials\\_Header.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Partials\\_Header.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T12:49:28.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\aspnet-2-prog23\\lektion-3\\Silicon\\WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "WebApp\\Program.cs",
+              "ToolTip": "C:\\Projects\\aspnet-2-prog23\\lektion-3\\Silicon\\WebApp\\Program.cs",
+              "RelativeToolTip": "WebApp\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T12:45:52.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SignIn.cshtml",
+              "DocumentMoniker": "C:\\Projects\\aspnet-2-prog23\\lektion-3\\Silicon\\WebApp\\Views\\Auth\\SignIn.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Auth\\SignIn.cshtml",
+              "ToolTip": "C:\\Projects\\aspnet-2-prog23\\lektion-3\\Silicon\\WebApp\\Views\\Auth\\SignIn.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Auth\\SignIn.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAABzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-30T12:44:44.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Projects\\aspnet-2-prog23\\lektion-3\\Silicon\\WebApp\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Projects\\aspnet-2-prog23\\lektion-3\\Silicon\\WebApp\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\CoursesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T12:42:20.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Projects\\aspnet-2-prog23\\lektion-3\\Silicon\\WebApp\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Projects\\aspnet-2-prog23\\lektion-3\\Silicon\\WebApp\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwDsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T12:24:55.917Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

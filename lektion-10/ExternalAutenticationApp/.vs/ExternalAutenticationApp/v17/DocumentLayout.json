@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\aspnet-2-prog23\\lektion-10\\ExternalAutenticationApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88024334-D862-432C-BA9A-957BBE78B092}|ExternalAutenticationApp\\ExternalAutenticationApp\\ExternalAutenticationApp.csproj|c:\\projects\\aspnet-2-prog23\\lektion-10\\externalautenticationapp\\externalautenticationapp\\externalautenticationapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88024334-D862-432C-BA9A-957BBE78B092}|ExternalAutenticationApp\\ExternalAutenticationApp\\ExternalAutenticationApp.csproj|solutionrelative:externalautenticationapp\\externalautenticationapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88024334-D862-432C-BA9A-957BBE78B092}|ExternalAutenticationApp\\ExternalAutenticationApp\\ExternalAutenticationApp.csproj|c:\\projects\\aspnet-2-prog23\\lektion-10\\externalautenticationapp\\externalautenticationapp\\externalautenticationapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{88024334-D862-432C-BA9A-957BBE78B092}|ExternalAutenticationApp\\ExternalAutenticationApp\\ExternalAutenticationApp.csproj|solutionrelative:externalautenticationapp\\externalautenticationapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FD4A5E5-2A48-4543-9385-109D142A486C}|ExternalAutenticationApp\\ExternalAutenticationApp.Client\\ExternalAutenticationApp.Client.csproj|c:\\projects\\aspnet-2-prog23\\lektion-10\\externalautenticationapp\\externalautenticationapp\\externalautenticationapp.client\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2FD4A5E5-2A48-4543-9385-109D142A486C}|ExternalAutenticationApp\\ExternalAutenticationApp.Client\\ExternalAutenticationApp.Client.csproj|solutionrelative:externalautenticationapp\\externalautenticationapp.client\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88024334-D862-432C-BA9A-957BBE78B092}|ExternalAutenticationApp\\ExternalAutenticationApp\\ExternalAutenticationApp.csproj|c:\\projects\\aspnet-2-prog23\\lektion-10\\externalautenticationapp\\externalautenticationapp\\externalautenticationapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{88024334-D862-432C-BA9A-957BBE78B092}|ExternalAutenticationApp\\ExternalAutenticationApp\\ExternalAutenticationApp.csproj|solutionrelative:externalautenticationapp\\externalautenticationapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Projects\\aspnet-2-prog23\\lektion-10\\ExternalAutenticationApp\\ExternalAutenticationApp\\ExternalAutenticationApp\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ExternalAutenticationApp\\ExternalAutenticationApp\\appsettings.Development.json",
+              "ToolTip": "C:\\Projects\\aspnet-2-prog23\\lektion-10\\ExternalAutenticationApp\\ExternalAutenticationApp\\ExternalAutenticationApp\\appsettings.Development.json",
+              "RelativeToolTip": "ExternalAutenticationApp\\ExternalAutenticationApp\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-22T08:36:06.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\aspnet-2-prog23\\lektion-10\\ExternalAutenticationApp\\ExternalAutenticationApp\\ExternalAutenticationApp\\Program.cs",
+              "RelativeDocumentMoniker": "ExternalAutenticationApp\\ExternalAutenticationApp\\Program.cs",
+              "ToolTip": "C:\\Projects\\aspnet-2-prog23\\lektion-10\\ExternalAutenticationApp\\ExternalAutenticationApp\\ExternalAutenticationApp\\Program.cs",
+              "RelativeToolTip": "ExternalAutenticationApp\\ExternalAutenticationApp\\Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACwAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T08:35:33.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projects\\aspnet-2-prog23\\lektion-10\\ExternalAutenticationApp\\ExternalAutenticationApp\\ExternalAutenticationApp.Client\\wwwroot\\appsettings.json",
+              "RelativeDocumentMoniker": "ExternalAutenticationApp\\ExternalAutenticationApp.Client\\wwwroot\\appsettings.json",
+              "ToolTip": "C:\\Projects\\aspnet-2-prog23\\lektion-10\\ExternalAutenticationApp\\ExternalAutenticationApp\\ExternalAutenticationApp.Client\\wwwroot\\appsettings.json",
+              "RelativeToolTip": "ExternalAutenticationApp\\ExternalAutenticationApp.Client\\wwwroot\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-22T08:35:28.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projects\\aspnet-2-prog23\\lektion-10\\ExternalAutenticationApp\\ExternalAutenticationApp\\ExternalAutenticationApp\\appsettings.json",
+              "RelativeDocumentMoniker": "ExternalAutenticationApp\\ExternalAutenticationApp\\appsettings.json",
+              "ToolTip": "C:\\Projects\\aspnet-2-prog23\\lektion-10\\ExternalAutenticationApp\\ExternalAutenticationApp\\ExternalAutenticationApp\\appsettings.json",
+              "RelativeToolTip": "ExternalAutenticationApp\\ExternalAutenticationApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-22T08:34:36.185Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

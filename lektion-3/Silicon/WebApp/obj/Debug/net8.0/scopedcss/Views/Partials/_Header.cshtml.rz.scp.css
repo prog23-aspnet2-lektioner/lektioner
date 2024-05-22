@@ -1,0 +1,62 @@
+header[b-e0coqb6vdg] {
+  padding: 1rem 0;
+}
+header .container[b-e0coqb6vdg] {
+  display: grid;
+  align-items: center;
+  gap: 2rem;
+  grid-template-columns: 1fr auto;
+  grid-template-areas: "logo mobile";
+}
+@media (min-width: 768px) {
+  header .container[b-e0coqb6vdg] {
+    grid-template-columns: 1fr auto auto;
+    grid-template-areas: "logo sw mobile";
+  }
+}
+@media (min-width: 1200px) {
+  header .container[b-e0coqb6vdg] {
+    grid-template-columns: auto 1fr auto auto;
+    grid-template-areas: "logo nav sw account";
+  }
+}
+header .container .logo[b-e0coqb6vdg] {
+  grid-area: logo;
+}
+header .container nav[b-e0coqb6vdg] {
+  display: none;
+  grid-area: nav;
+  gap: 1rem;
+}
+@media (min-width: 1200px) {
+  header .container nav[b-e0coqb6vdg] {
+    display: flex;
+  }
+}
+header .container .btn-switch[b-e0coqb6vdg] {
+  display: none;
+  grid-area: sw;
+}
+@media (min-width: 768px) {
+  header .container .btn-switch[b-e0coqb6vdg] {
+    display: block;
+  }
+}
+header .container .account-buttons[b-e0coqb6vdg] {
+  display: none;
+  gap: 1rem;
+  grid-area: account;
+}
+@media (min-width: 1200px) {
+  header .container .account-buttons[b-e0coqb6vdg] {
+    display: flex;
+  }
+}
+header .container .btn-mobileMenu[b-e0coqb6vdg] {
+  grid-area: mobile;
+}
+@media (min-width: 1200px) {
+  header .container .btn-mobileMenu[b-e0coqb6vdg] {
+    display: none;
+  }
+}

@@ -1,0 +1,67 @@
+@import '../../wwwroot/css/scss/_mixins.scss';
+
+header {
+    padding: 1rem 0;
+
+    .container {
+        display: grid;
+        align-items: center;
+        gap: 2rem;
+        grid-template-columns: 1fr auto;
+        grid-template-areas: "logo mobile";
+
+        @include md {
+            grid-template-columns: 1fr auto auto;
+            grid-template-areas: "logo sw mobile";
+        }
+
+        @include xl {
+            grid-template-columns: auto 1fr auto auto;
+            grid-template-areas: "logo nav sw account";
+        }
+
+        .logo {
+            grid-area: logo;
+        }
+
+        nav {
+            display: none;
+            grid-area: nav;
+            gap: 1rem;
+
+            @include xl {
+                display: flex;
+            }
+        }
+
+        .btn-switch {
+            display: none;
+            grid-area: sw;
+
+            @include md {
+                display: block;
+            }
+        }
+
+        .account-buttons {
+            display: none;
+            gap: 1rem;
+            grid-area: account;
+
+            @include xl {
+                display: flex;
+            }
+
+            a {
+            }
+        }
+
+        .btn-mobileMenu {
+            grid-area: mobile;
+
+            @include xl {
+                display: none;
+            }
+        }
+    }
+}

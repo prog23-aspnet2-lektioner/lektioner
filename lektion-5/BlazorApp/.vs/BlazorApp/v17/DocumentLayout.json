@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\aspnet-2-prog23\\lektion-5\\BlazorApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74D28219-3F45-4041-81CE-F2EB494830E0}|BlazorApp\\BlazorApp\\BlazorApp.csproj|c:\\projects\\aspnet-2-prog23\\lektion-5\\blazorapp\\blazorapp\\blazorapp\\components\\pages\\confirm.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74D28219-3F45-4041-81CE-F2EB494830E0}|BlazorApp\\BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\blazorapp\\components\\pages\\confirm.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74D28219-3F45-4041-81CE-F2EB494830E0}|BlazorApp\\BlazorApp\\BlazorApp.csproj|c:\\projects\\aspnet-2-prog23\\lektion-5\\blazorapp\\blazorapp\\blazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74D28219-3F45-4041-81CE-F2EB494830E0}|BlazorApp\\BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\blazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Confirm.razor",
+              "DocumentMoniker": "C:\\Projects\\aspnet-2-prog23\\lektion-5\\BlazorApp\\BlazorApp\\BlazorApp\\Components\\Pages\\Confirm.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\BlazorApp\\Components\\Pages\\Confirm.razor",
+              "ToolTip": "C:\\Projects\\aspnet-2-prog23\\lektion-5\\BlazorApp\\BlazorApp\\BlazorApp\\Components\\Pages\\Confirm.razor",
+              "RelativeToolTip": "BlazorApp\\BlazorApp\\Components\\Pages\\Confirm.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T12:23:14.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\aspnet-2-prog23\\lektion-5\\BlazorApp\\BlazorApp\\BlazorApp\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\BlazorApp\\Program.cs",
+              "ToolTip": "C:\\Projects\\aspnet-2-prog23\\lektion-5\\BlazorApp\\BlazorApp\\BlazorApp\\Program.cs",
+              "RelativeToolTip": "BlazorApp\\BlazorApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T12:19:14.818Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
